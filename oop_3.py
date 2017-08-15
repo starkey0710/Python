@@ -36,7 +36,6 @@ class Roster:
         #self.ID_number = ID
     def __str__(self):
         studentlistInfo = "student info: "
-
         emptyString = ""
         for count in range(len(self.studentList)):
             emptyString = emptyString + "\n" + str(self.studentList[count])
